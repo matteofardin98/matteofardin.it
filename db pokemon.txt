@@ -1,4 +1,0 @@
-L'hostname è sql.matteofardin.it
-Il nome database è matteofa77511
-L'username è matteofa77511
-La password è matt13660
