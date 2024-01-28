@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearer {
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input,
+select,
+textarea,
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.content {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #242526;
+}
+
+.divider {
+    padding: 20px 0;
+}
+
+.spacer {
+    padding: 70px 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+/* Grid System */
+
+.col-1 {
+    width: 8.33333%;
+}
+
+.col-2 {
+    width: 16.66666%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33333%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-8 {
+    width: 66.66666%;
+}
+
+.col-10 {
+    width: 83.33333%;
+}
+
+/** Global Style **/
+
+h1 {
+    color: #bbb;
+    font-size: 50px;
+}
+
+h2 {
+    color: #bbb;
+    font-size:  20px;
+}
+
+p {
+    color: #bbb; 
+    font-size: 16px; 
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+figure img {
+    background-color: #454545;
+    border-right: 1px solid #fff;
+    display: block;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.card {
+    background-color: #454545;
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 0 20px 30px;
+}
+
+.info {
+    padding: 20px;
+}
+
+.button {
+    display: inline-block;
+    color: #000;
+    background-color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: .3s;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #bbb;
+    color: #fff;
+}
+
+
+
+/** Break Points **/
+
+/* Desktop */
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    .content {
+        margin: 0 2%;
+        width: 96%;
+    }
+}
+
+/* Tablet */
+@media only screen and (max-width: 1024px) {
+    .content {
+        margin: 0 2%;
+        width: 96%;
+    }
+}
+
+/* Smartphone */
+@media only screen and (max-width: 768px) {
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-6,
+    .col-8,
+    .col-10 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    
+}
